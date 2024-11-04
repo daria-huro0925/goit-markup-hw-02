@@ -127,9 +127,7 @@ body {
     text-transform: capitalize;
 }
 
-.team-list {
-    background-color: #ffffff;
-}
+.team-list {}
 
 .team-subtitle {
     font-weight: 500;
