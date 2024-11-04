@@ -17,7 +17,7 @@ body {
     color: #4d5ae5;
 }
 
-.part-logo {
+.part-logo-header {
     color: #2E2F42;
 }
 
@@ -31,7 +31,9 @@ body {
     color: #2E2F42;
 }
 
-.address {}
+.address {
+    font-style: normal;
+}
 
 .address-item {
     font-weight: 400;
@@ -39,6 +41,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.address-item:hover {
+    color: #404bbf;
+}
+
+.address-item:focus {
+    color: #404bbf;
 }
 
 .hero {
@@ -51,9 +61,27 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
-.hero-button {}
+.hero-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    color: #404bbf;
+    background-color: #404bbf;
+}
+
+.hero-button:focus {
+    color: #404bbf;
+    background-color: #404bbf;
+}
 
 .benefits {}
 
@@ -84,10 +112,11 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .team-list {}
@@ -98,6 +127,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    background-color: #ffffff;
 }
 
 .team-text {
@@ -112,9 +142,10 @@ body {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -130,17 +161,23 @@ body {
 .portfolio-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.footer {}
+.footer {
+    background-color: #2e2f42;
+}
 
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.part-logo-footer {
     color: #f4f4fd;
 }
