@@ -28,7 +28,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #404bbf;
 }
 
 .address {
@@ -135,6 +135,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #ffffff;
 }
 
 .portfolio {}
@@ -146,6 +147,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio-list {}
